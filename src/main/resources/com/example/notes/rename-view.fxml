@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notes.Controllers.RenameController">
+   <children>
+      <TextField fx:id="RenameTF" layoutX="159.0" layoutY="188.0"/>
+      <Label layoutX="204.0" layoutY="155.0" text="New name:" />
+      <Button fx:id="BtnRename" layoutX="208.0" layoutY="227.0" mnemonicParsing="false" onAction="#onRenameClicked" text="Rename" />
+   </children>
+</AnchorPane>
